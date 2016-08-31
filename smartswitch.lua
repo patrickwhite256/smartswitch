@@ -54,4 +54,3 @@ function smartswitch()
     end
     tap:start()
 end
-hs.hotkey.bind({"cmd", "alt"}, "tab", smartswitch)
