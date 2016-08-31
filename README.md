@@ -29,6 +29,16 @@ You can, of course, choose your own hotkeys. Haven't figured out if its possible
 
 You're done! Go switch with confidence!
 
+Disclaimer
+----------
+I am neither of these things:
+
+- A designer, which is why it looks bad
+- Someone who's used Lua before, which is why the code is bad
+
+If you want to complain about these things, go ahead but it won't really do any good.
+If you want to fix them, pull requests would be much appreciated!
+
 TODO
 ----
 
