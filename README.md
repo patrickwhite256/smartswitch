@@ -17,10 +17,14 @@ How to Use
 ----------
 
 1) Install [Hammerspoon](http://www.hammerspoon.org/)
+
 2) Add the following to your `~/.hammerspoon/init.lua`:
+
     require "smartswitch"
     hs.hotkey.bind({"cmd", "alt"}, "tab", smartswitch)
+
 You can, of course, choose your own hotkeys. Haven't figured out if its possible to have Hammerspoon binds shadow normal binds (i.e. replace Cmd+Tab).
+
 3) Copy or link `smartswitch.lua` from this repository to `~/.hammerspoon`
 
 You're done! Go switch with confidence!
