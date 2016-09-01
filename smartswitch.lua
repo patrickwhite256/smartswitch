@@ -5,11 +5,13 @@ local keyOrder = {
 local windows = {}
 local images = {}
 tap = hs.eventtap.new({hs.eventtap.event.types['keyDown']}, function(event)
-    window = windows[event:getKeyCode()]
-    if window == nil then
-        return true
+    if event:getKeyCode() ~= hs.keycodes.map['escape'] then
+        window = windows[event:getKeyCode()]
+        if window == nil then
+            return true
+        end
+        windows[event:getKeyCode()]:focus()
     end
-    windows[event:getKeyCode()]:focus()
     for _, imagepair in ipairs(images) do
         imagepair[1]:hide()
         imagepair[2]:hide()

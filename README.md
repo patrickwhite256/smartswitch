@@ -42,6 +42,6 @@ If you want to fix them, pull requests would be much appreciated!
 TODO
 ----
 
-- Cancel with escape
+- ~~Cancel with escape~~
 - Allow more than eight windows (probably not though)
 - Make it not look terrible
